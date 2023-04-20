@@ -1,0 +1,425 @@
+h1
+{
+    margin-left: 600px;
+    color:crimson;
+    
+}
+li
+{
+    display: inline;
+    padding: 18px;
+    margin-left: 90px;
+    color: #fff;
+}
+i
+{
+    color: red;
+}
+nav
+{
+    background-color:rgb(89, 80, 64);
+    padding: 5px;
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+img
+{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width:1421px;
+}
+marquee
+{
+    color: #000;
+    background-color:aqua;
+    padding: 5px;
+    font-weight: 800;
+}
+
+/*---------------course-------------------*/
+.course
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1
+{
+    font-size: 36px;
+    font-weight: 600;
+}
+h2
+{
+    text-decoration: underline;
+}
+p
+{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.bold
+{
+    font-weight: 600;
+}
+.row
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col
+{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3
+{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*------------footer------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 1px 0;
+    height: 390px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+/*-----------register------------*/
+.bg
+{
+    height: 600px;
+    position: sticky;
+    top:10px;
+}
+.zoho
+{
+    height:770px;
+    width:600px;
+    margin-left: 450px;
+    position: relative;
+
+}
+
+/*------------contact--------------*/
+
+.location{
+    width:100%;
+    padding:80px 0;
+    margin-left: 250px;
+}
+.queries{
+    margin-left: 100px;
+}
+.contact{
+    
+    background-color:rgb(226, 129, 194);
+    height:200px;
+    width:1500px;
+    font-size:200;
+    font-style:italic;
+    
+}
+.reg{
+    margin-left:100px ;
+    color:rgb(24, 4, 64);
+}
+.mob{
+    font-size:25px;
+    margin-left:100px ;
+    color:rgb(128, 0, 41)
+
+}
+.mail{
+    font-size:20px;
+    color:rgb(9, 9, 9);
+    margin-left:150px;
+}
+.hh{
+    margin-left:900px;
+    margin-top:-160px ;
+}
+.regi{
+    margin-top:10px ;
+    margin-left:900px;
+    color:rgb(24, 4, 64)
+}
+.mobi{
+    font-size:25px;
+    margin-left:900px ;
+    margin-top:-5;
+    color:rgb(128, 0, 41)
+}
+    .maill{ 
+        font-size:20px;
+        color:rgb(9, 9, 9);
+        margin-left:1000px;   
+    }
+
+/*----------departments----------*/
+.maint
+{
+    margin-left: 370px;
+    font-size: 20px;
+}
+.dept
+{
+    width:500px;
+    height:300px;
+    padding: 10px;
+}
+.deptc
+{
+    background-color:blanchedalmond;
+}
+.style{
+    font-weight: 1000;
+}
+.tem
+{
+    margin-left: 400px;
+}
+
+/*-------------------------------facilities-----------------------------------*/
+
+.gig{
+    color:rgb(233, 218, 21);
+    background-color:rgb(114, 49, 228);
+    font-size:70px;
+    width:1100px;
+    margin-left:200px;
+    font-style:ITALIC;
+    margin-top:50px;
+}
+.facilities
+{
+    background-color: antiquewhite;
+}
+.head{
+    margin-left: 50px;
+}
+.h22{
+color:red;
+margin-left:50px;
+}
+.h33{
+    color:rgb(51, 0, 255);
+margin-left:50px;
+
+    }
+        .h55{
+    
+            color:rgb(0, 255, 187);
+margin-left:50px;
+
+            }
+            .h66{
+                color:rgb(111, 255, 0);
+                margin-left:50px;
+
+         }
+         .h77{
+             color:rgb(98, 0, 255);
+             margin-left:50px;
+
+                }
+                .h88{
+                    color:rgb(183, 0, 255);
+                    margin-left:50px;
+
+                    }         
+                        .h99{
+                            color:red;
+                           margin-left:50px;
+
+                            }
+                            .hih{
+                                color:rgb(51, 0, 255);
+                            margin-left:50px;
+
+                                }
+                                .hjh{
+                                    color:rgb(255, 0, 200);
+                               margin-left:50px;
+
+                                    }
+                                    .hkh{
+                                        color:rgb(0, 255, 187);
+                                margin-left:50px;
+
+                                        }.hlh{
+                                            color:red;
+                                margin-left:50px;
+
+                                            }
+                                            .img2{
+                                                margin-left:1200px;
+                                                margin-top:-60px;
+                                                height: 250px;
+                                                width: 250px;
+                                            }
+                                            .img9
+                                            {margin-left: 50px;
+
+                                                height: 230px;
+                                                width: 250px;  
+                                            }
+                                            .img1{
+                                                margin-left:50px;
+                                                margin-top:-30px;
+                                                height: 250px;
+                                                width: 250px;
+
+                                            }
+                                        .p2{
+                                            margin-top:-200px;
+                                        }
+                                        .p3{
+                                            margin-left:300px;
+                                            margin-top:-150px;
+                                        }
+                                        .img3{
+                                            margin-left:1200px;
+                                            margin-top:-70px;
+                                            height: 250px;
+                                            width: 250px;
+                                        
+                                        }
+                                        .p4{
+                                           margin-left:50px; ;
+                                            margin-top:-150px;
+                                        }
+                                        .p1{
+                                           
+                                            margin-top:-40px;
+                                            margin-left:500px;
+                                        }
+                                        .pe{
+                                            margin-left: 320px;
+                                            margin-top:-100px;
+
+                                        }
+                                       .audii{
+                                        margin-left:50px;
+
+                                        }
+                                .sprt{ 
+                                    margin-left:50px;
+                                    margin-top:-200px;
+
+                                }
+                                .img6{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left: 1200px;
+
+                                }
+                                .img7{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left: 50px;
+                                }
+                                .waiti{
+                                    margin-left:330px;
+                                    margin-top:-100px;
+
+                                }
+                                .img10{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left:50px;
+                                }
+                                .img8{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left:1200px;
+                                }
+                                .semii{
+                                    margin-top:-150px;
+                                    margin-left:50px;
+                                }
+
+
+                                    
+                                        
