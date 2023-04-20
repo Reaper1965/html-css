@@ -33,7 +33,7 @@ img
     background-size: cover;
     background-position: center;
     position: relative;
-    width:1421px;
+    width:1600px;
 }
 marquee
 {
@@ -125,6 +125,7 @@ ul{
   background-color: #24262b;
     padding: 1px 0;
     height: 390px;
+    
 }
 .footer-col{
    width: 25%;
@@ -178,8 +179,15 @@ ul{
     height:770px;
     width:600px;
     margin-left: 450px;
-    position: relative;
-
+    position: absolute;
+    position: sticky;
+    top: 10px;
+}
+.footerfix
+{
+    position: absolute;
+    margin-top: 50px;
+    width: 1600px;
 }
 
 /*------------contact--------------*/
